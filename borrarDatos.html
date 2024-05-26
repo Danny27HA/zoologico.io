@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Eliminar datos del CSV</title>
+</head>
+<body>
+    <h2>Eliminar datos del CSV</h2>
+    <input type="file" id="csvFile" accept=".csv"><br><br>
+    <table id="csvTable">
+        <thead>
+            <tr>
+                <th>Habitat</th>
+                <th>Animal</th>
+                <th>Cantidad</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <br>
+    <button id="downloadBtn" style="display: none;">Descargar Archivo</button>
+    <button onclick="location.href='index.html'">Menu Principal</button>
+    <script src="eliminarDatos.js"></script>
+</body>
+</html>
